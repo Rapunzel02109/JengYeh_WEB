@@ -16,18 +16,33 @@
            animation-name:amforh2;
            animatiom-duration: 5s;
            animation-iteration-count: infinite;
+           font-size:3vw;
+           texxt-shadow: 2px 2px 4px #000000;
       }
       body {
           border:10px ridge;
           padding:20px;
       }
+      @keyframes anforph {
+              from{border-radius: 0%;}
+              to{border-radius: 100%;}
+      }
+      .anph1{
+          width:60%;
+          height:auto;
+      }
+      .anph1:hover{
+         animation-name: anforph;
+         animation-duration: 1s;
+         animation-iteration-count:infinite;
+      }
       </style>
   </head>
   <body style="background-color: #ff0000;">
     <div style="color: #6600cc;text-align: center;">
-      <h1>陳宥蓉的網站</h1>
+      <h1 class='title'>陳宥蓉的網站</h1>
       <hr>
-      <img src="https://obs.line-scdn.net/0hHCdUyL8MF2xZLATJUd5oO2F6Gx1qSg1le0pQA30vGwt9AFg7YBhED3gvG0AnHVhveRoIDn8oG1gmT1I7Yg/w644" alt="alternative text">
+      <img class='anph1' src="https://obs.line-scdn.net/0hHCdUyL8MF2xZLATJUd5oO2F6Gx1qSg1le0pQA30vGwt9AFg7YBhED3gvG0AnHVhveRoIDn8oG1gmT1I7Yg/w644" alt="alternative text">
     </div>
     <div style="color: #ffccff;">
       <hr>
